@@ -1,0 +1,205 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+a{
+    text-decoration:none;
+    color: inherit;
+}
+
+body {
+    font-size: 14px;
+    background: #222222;
+    color: #d4d4d4;
+    font-family: Verdana, sans-serif;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: 'MyWebFont';
+		src: url('fonts/Symbol PS Regular.ttf')  format('truetype');
+}
+
+button {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+}
+
+.div-1 {
+    margin-left: auto;
+}
+
+.div-4 {
+    margin-right: auto;
+}
+
+/* Навигация */
+nav {
+    display: flex;
+    align-items: center;
+    padding-top: 55px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    padding-right: 34px;
+}
+
+.logo {
+    width: 60px;
+    margin-left: auto;
+    margin-right: 60px;
+}
+
+.commun {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.commun img {
+    padding-left: 24px;
+}
+
+/* Первый экран */
+.main_screen {
+    display: flex;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 80px;
+}
+
+.intro h1 {
+    color: white;
+    font-size: 45px;
+    padding-bottom: 50px;
+    padding-top: 71px;
+		font-family: 'MyWebFont';
+		src: url('fonts/Symbol PS Regular.ttf')  format('truetype');
+}
+
+.intro p {
+    padding-bottom: 56px;
+}
+
+.intro button {
+}
+
+.intro button strong {
+	margin: auto 0;
+}
+
+.intro button img {
+	margin: auto 0;
+}
+
+.moon {
+    margin-right: auto;
+    padding-bottom: 120px;
+    margin-top: 23px;
+}
+
+.intro button {
+    background: #ffcb06;
+    width: 240px;
+}
+
+
+/* Преимущества */
+.advantages {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 86px 0;
+    background-color: #131313;
+}
+
+.advantages div {
+    padding-right: 80px;
+}
+
+.advantages img {
+    padding-bottom: 40px;
+}
+
+/* Контент */
+.content {
+    background: white;
+    color: black;
+}
+
+/* Карта */
+.moon-vacation {
+    display: flex;
+    align-content: space-around;
+    padding-top: 84px;
+}
+
+.moon-vacation img {
+    padding-right: 80px;
+    margin-left: auto;
+}
+
+.moon-vacation div {
+    margin-right: auto;
+}
+
+.moon-vacation h2 {
+    color: #131313;
+    padding-bottom: 54px;
+}
+
+.moon-vacation p {
+    padding-bottom: 29px;
+    color: #222222;
+}
+
+/* Рекомендации */
+.recommendations {
+    display: flex;
+    list-style: none;
+    padding-bottom: 56px;
+    color: #222222;
+}
+
+.recommendations .div-1 {
+    padding-right: 100px;
+}
+
+.recommendations h2 {
+    padding-left: 39px;
+    padding-bottom: 41px;
+    padding-top: 55px;
+    margin: 0px;
+    color: #131313;
+}
+
+
+
